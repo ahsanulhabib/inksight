@@ -1,0 +1,25 @@
+# Core Frameworks
+streamlit
+fastapi
+uvicorn
+
+# AI & Graph
+langchain
+langgraph
+langchain_community
+langchain_ollama
+lightrag
+networkx
+pyvis
+
+# Document Processing
+unstructured[all-docs]
+pypdf
+python-docx
+openpyxl
+pandas
+Pillow
+
+# RAG Infrastructure
+faiss-cpu
+sentence-transformers
