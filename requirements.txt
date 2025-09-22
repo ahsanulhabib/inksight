@@ -2,6 +2,7 @@
 streamlit
 fastapi
 uvicorn
+ipykernel
 
 # AI & Graph
 langchain

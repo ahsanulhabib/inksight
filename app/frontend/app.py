@@ -5,6 +5,8 @@ from pyvis.network import Network
 import streamlit.components.v1 as components
 import os
 
+BACKEND_URL = os.getenv("BACKEND_URL", "http://localhost:8000")
+
 # --- Page Configuration ---
 st.set_page_config(layout="wide", page_title="InkSight Document Intelligence")
 st.title("✒️ InkSight: VLM-Powered Document Intelligence")

@@ -7,7 +7,7 @@ from .rag_pipeline import GraphRAG
 
 app = FastAPI()
 
-# In-memory storage for the demo
+# In-memory storage
 # A new graph and RAG pipeline are created each time a folder is processed
 knowledge_graph: nx.Graph = nx.Graph()
 rag_pipeline: GraphRAG = GraphRAG()
